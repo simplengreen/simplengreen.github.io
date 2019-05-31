@@ -3349,6 +3349,7 @@ input, select, textarea {
 			width: 55em;
 		}
 
+		/*
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
@@ -3372,6 +3373,26 @@ input, select, textarea {
 				line-height: 2.25em;
 				text-align: center;
 				width: 2.25em;
+			}
+		*/
+
+		#banner .logo {
+			-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
+			-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
+			-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
+			transition: opacity 1.25s ease, transform 0.5s ease;
+			-moz-transition-delay: 0s;
+			-webkit-transition-delay: 0s;
+			-ms-transition-delay: 0s;
+			transition-delay: 0s;
+			display: block;
+			margin: 0 0 1.5em 0;
+		}
+
+			#banner .logo img {
+				display: block;
+				margin: 0 auto;
+				max-width: 75%;
 			}
 
 		#banner h2 {
